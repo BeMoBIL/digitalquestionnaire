@@ -1,17 +1,15 @@
 # digitalquestionnaire
-digitalquestionnaire
 
-Install:
+Install:  
 `npm i`
 
-Build:
+Build:  
 1. In `src/index.js` change:
-* `import { default as Page } from "./questionnaires/fileNameOfYourQuestionnaire";`
-* `const questionnaireName = 'nameOfYourQuestionnaireThatWillBeUsedInTheFileNameOfTheSavedCsv';`
-* `` const string_submit = `TextOnTheSaveButton` ``
-
+  * `import { default as Page } from "./questionnaires/fileNameOfYourQuestionnaire";`
+  * `const questionnaireName = 'nameOfYourQuestionnaireThatWillBeUsedInTheFileNameOfTheSavedCsv';`
+  * `` const string_submit = `TextOnTheSaveButton` ``
 2. `npm run build`
-3. This will build the questionnaire under `build/index.html`
+3. Your freshly built questionnaire is here `build/index.html`
 
 
-Pull requests welcome!
+Comments and pull requests welcome!
