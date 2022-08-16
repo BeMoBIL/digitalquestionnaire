@@ -1,5 +1,7 @@
 # digitalquestionnaire
 
+Already built versions can be found in `./artifacts`
+
 Install:  
 `npm i`
 
