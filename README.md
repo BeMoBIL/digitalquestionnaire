@@ -1,5 +1,11 @@
 # digitalquestionnaire
 
+A framework for creating questionnaires that require offline functionality.
+
+The questionnaire can be created using an HTML like format. For an example see `/src/questionnaires/SociodemographicAndHealth.jsx`
+
+The script the builds a single HTML file, which saves the answers to a local .csv file.
+
 Built versions can be found in `./artifacts`
 
 Install:  
@@ -16,4 +22,6 @@ Build:
 Notes  
  - The Radio with input option component assumes that the free input option will always be the last one
  
-Comments and pull requests welcome!
+Similar projects
+
+https://thefragebogen.de/
